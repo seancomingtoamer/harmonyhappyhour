@@ -78,7 +78,7 @@ export default async function HomePage() {
               <Button size="lg">Explore Spots</Button>
             </Link>
             <a href={TELEGRAM_LINK} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 hover:text-white">
+              <Button variant="ghost" size="lg" className="border border-white/60 text-white bg-white/10 hover:bg-white/20 hover:text-white">
                 Join the Telegram
               </Button>
             </a>
