@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Wine } from "lucide-react"
+import { Wine, Car } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { TELEGRAM_LINK } from "@/lib/constants"
@@ -36,6 +36,15 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="https://t.me/+b3_v1rIaub82NzVh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-sm font-medium text-stone-600 transition-colors hover:text-green-600"
+          >
+            <Car className="h-4 w-4" />
+            Need a Ride?
+          </a>
           <a href={TELEGRAM_LINK} target="_blank" rel="noopener noreferrer">
             <Button size="sm">Join Telegram</Button>
           </a>
